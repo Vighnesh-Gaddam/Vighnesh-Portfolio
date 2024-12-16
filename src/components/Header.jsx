@@ -77,7 +77,7 @@ const Header = () => {
           open: { opacity: 1, y: 0, display: "block" },
         }}
         transition={{ duration: 0.3 }}
-        className="absolute top-20 right-6 bg-[#121212] text-white p-3 shadow-md border border-gray-600 w-64 h-auto rounded-[36px] border-none"
+        className="absolute top-20 right-6 bg-[#121212] text-white p-3 shadow-md border border-gray-600 w-64 h-auto rounded-[36px] border-none z-50"
       >
         <ul className="flex flex-col gap-3 justify-center items-center">
           {["About-me", "Stack", "My-project", "Journey", "Contact"].map((item, index) => (

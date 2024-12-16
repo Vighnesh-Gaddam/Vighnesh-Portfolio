@@ -2,12 +2,14 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 import Button from "./Button"; // Import the Button component
+import { Link } from "react-router-dom";
 
 const Info = () => {
   return (
-    <div className="flex flex-col justify-end gap-11">
-      <div className="flex-1 flex gap-2 w-auto h-auto">
-        <div className="flex items-center justify-center w-18 h-18 relative rounded-full overflow-hidden">
+    <div className="flex flex-col justify-end gap-11 pr-6">
+      {/* <Link to="/"> */}
+      <Link className="flex-1 flex gap-2 w-auto h-auto">
+        <div className="flex items-center justify-center w-auto h-18 relative rounded-full overflow-hidden">
           <img
             src="https://img.freepik.com/premium-photo/portrait-boy-with-dark-hair-vector-illustration-cartoon-style_994418-93881.jpg"
             alt=""
@@ -16,15 +18,16 @@ const Info = () => {
             className="w-18 h-18 object-cover"
           />
         </div>
-        <div className="flex flex-col justify-center">
+        <span className="flex flex-col justify-center">
           <p className="text-2xl font-extralight tracking-widest">
             VIGHNESH G.
           </p>
           <p className="text-sm font-thin text-[#B3B3B3] tracking-normal m-0">
             Full-Stack Developer
           </p>
-        </div>
-      </div>
+        </span>
+      </Link>
+      {/* </Link> */}
 
       <div className="outline-none flex flex-col justify-start flex-shrink-0 transform-none opacity-100 max-w-xs">
         <p className="leading-tight font-extralight tracking-widest text-[#B3B3B3]">

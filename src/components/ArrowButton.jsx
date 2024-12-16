@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const ArrowButton = () => {
   return (
     <motion.div
-      className="absolute bottom-4 right-4 flex justify-center items-center w-12 h-12 rounded-full bg-white shadow-lg cursor-pointer border-4 border-[#1A1A1A]"
+      className="absolute bottom-4 right-4 flex justify-center items-center w-12 h-12 rounded-full bg-white shadow-lg cursor-pointer border-4 border-gray-400 border-opacity-20"
       initial="rest"
       animate="rest"
       whileHover="hover"
