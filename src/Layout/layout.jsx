@@ -1,7 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Info from "../components/Info";
-import Header from "../components/header";
 
 const Layout = () => {
   return (
@@ -11,31 +10,24 @@ const Layout = () => {
         className="absolute inset-0 z-0 w-full h-full"
         style={{
           backgroundImage: `url('/Enhance-framer.png')`, // Replace with the correct image path
+          backgroundAttachment: "fixed",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       ></div>
 
       {/* Content Layer */}
-      <div className="container relative z-10 h-full p-12 flex">
-        {/* Left Section */}
-        <div className="w-1/4">
-          <div className="">
-            <Info />
-          </div>
+      <div className="z-10 h-full flex p-12">
+        {/* Left Section - Info (Fixed Position) */}
+        <div className="h-full fixed">
+          <Info />
         </div>
 
-        {/* Right Section */}
-        <div className="w-3/4 flex flex-col gap-3 m-0 p-0">
-          {/* Header */}
-          <div className="">
-            <Header />
-          </div>
+        {/* Right Section - Projects (Scrollable) */}
+        <div className="w-3/4 ml-auto h-full overflow-y-auto z-20">
           {/* Main Content */}
-          <div className="flex-grow p-0 m-0">
-            <div className="text-base h-full p-0 m-0">
-              <Outlet />
-            </div>
+          <div className="h-full text-white">
+            <Outlet />
           </div>
         </div>
       </div>

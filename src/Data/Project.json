@@ -1,0 +1,162 @@
+{
+    "projects": [
+      {
+        "id":"1",
+        "title": "My Portfolio Website",
+        "startDate": "2024-01-15",
+        "endDate": "2024-03-15",
+        "description": "A personal portfolio website built to showcase my skills and projects using the MERN stack. It includes a custom homepage, project section, and contact form.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+        "projectLink": "https://myportfolio.com",
+        "githubLink": "https://github.com/username/my-portfolio",
+        "status": "Completed",
+        "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/025/061/745/small_2x/4k-beautiful-colorful-abstract-wallpaper-photo.jpg",
+        "featured": true
+      },
+      {
+        "id":"2",
+        "title": "E-commerce Platform",
+        "startDate": "2024-04-01",
+        "endDate": "2024-06-30",
+        "description": "An e-commerce platform built to sell products online. It features a shopping cart, user authentication, and an admin panel for managing products.",
+        "technologies": ["React", "Redux", "Node.js", "Express", "MongoDB"],
+        "projectLink": "https://ecommerce-platform.com",
+        "githubLink": "https://github.com/username/e-commerce-platform",
+        "status": "Completed",
+        "imageUrl": "https://t4.ftcdn.net/jpg/09/45/20/97/360_F_945209778_QNLukvfcQL0kkcClajN1FYCHb12pKUfv.jpg",
+        "featured": false
+      },
+      {
+        "id":"3",
+        "title": "Learning Management System",
+        "startDate": "2024-07-01",
+        "endDate": null,
+        "description": "A learning management system that allows educators to upload courses, assignments, and track student progress. It supports multiple user roles including students and teachers.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "JWT Authentication"],
+        "projectLink": "https://learning-system.com",
+        "githubLink": "https://github.com/username/learning-management-system",
+        "status": "In Progress",
+        "imageUrl": "https://free-3dtextureshd.com/wp-content/uploads/2024/04/89.jpg.webp",
+        "featured": true
+      },
+      {
+        "id":"4",
+        "title": "My Portfolio Website",
+        "startDate": "2024-01-15",
+        "endDate": "2024-03-15",
+        "description": "A personal portfolio website built to showcase my skills and projects using the MERN stack. It includes a custom homepage, project section, and contact form.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+        "projectLink": "https://myportfolio.com",
+        "githubLink": "https://github.com/username/my-portfolio",
+        "status": "Completed",
+        "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/025/061/745/small_2x/4k-beautiful-colorful-abstract-wallpaper-photo.jpg",
+        "featured": true
+      },
+      {
+        "id":"5",
+        "title": "E-commerce Platform",
+        "startDate": "2024-04-01",
+        "endDate": "2024-06-30",
+        "description": "An e-commerce platform built to sell products online. It features a shopping cart, user authentication, and an admin panel for managing products.",
+        "technologies": ["React", "Redux", "Node.js", "Express", "MongoDB"],
+        "projectLink": "https://ecommerce-platform.com",
+        "githubLink": "https://github.com/username/e-commerce-platform",
+        "status": "Completed",
+        "imageUrl": "https://t4.ftcdn.net/jpg/09/45/20/97/360_F_945209778_QNLukvfcQL0kkcClajN1FYCHb12pKUfv.jpg",
+        "featured": false
+      },
+      {
+        "id":"6",
+        "title": "Learning Management System",
+        "startDate": "2024-07-01",
+        "endDate": null,
+        "description": "A learning management system that allows educators to upload courses, assignments, and track student progress. It supports multiple user roles including students and teachers.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "JWT Authentication"],
+        "projectLink": "https://learning-system.com",
+        "githubLink": "https://github.com/username/learning-management-system",
+        "status": "In Progress",
+        "imageUrl": "https://free-3dtextureshd.com/wp-content/uploads/2024/04/89.jpg.webp",
+        "featured": true
+      },
+      {
+        "id":"7",
+        "title": "My Portfolio Website",
+        "startDate": "2024-01-15",
+        "endDate": "2024-03-15",
+        "description": "A personal portfolio website built to showcase my skills and projects using the MERN stack. It includes a custom homepage, project section, and contact form.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+        "projectLink": "https://myportfolio.com",
+        "githubLink": "https://github.com/username/my-portfolio",
+        "status": "Completed",
+        "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/025/061/745/small_2x/4k-beautiful-colorful-abstract-wallpaper-photo.jpg",
+        "featured": true
+      },
+      {
+        "id":"8",
+        "title": "E-commerce Platform",
+        "startDate": "2024-04-01",
+        "endDate": "2024-06-30",
+        "description": "An e-commerce platform built to sell products online. It features a shopping cart, user authentication, and an admin panel for managing products.",
+        "technologies": ["React", "Redux", "Node.js", "Express", "MongoDB"],
+        "projectLink": "https://ecommerce-platform.com",
+        "githubLink": "https://github.com/username/e-commerce-platform",
+        "status": "Completed",
+        "imageUrl": "https://t4.ftcdn.net/jpg/09/45/20/97/360_F_945209778_QNLukvfcQL0kkcClajN1FYCHb12pKUfv.jpg",
+        "featured": false
+      },
+      {
+        "id":"9",
+        "title": "Learning Management System",
+        "startDate": "2024-07-01",
+        "endDate": null,
+        "description": "A learning management system that allows educators to upload courses, assignments, and track student progress. It supports multiple user roles including students and teachers.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "JWT Authentication"],
+        "projectLink": "https://learning-system.com",
+        "githubLink": "https://github.com/username/learning-management-system",
+        "status": "In Progress",
+        "imageUrl": "https://free-3dtextureshd.com/wp-content/uploads/2024/04/89.jpg.webp",
+        "featured": true
+      },
+      {
+        "id":"10",
+        "title": "My Portfolio Website",
+        "startDate": "2024-01-15",
+        "endDate": "2024-03-15",
+        "description": "A personal portfolio website built to showcase my skills and projects using the MERN stack. It includes a custom homepage, project section, and contact form.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+        "projectLink": "https://myportfolio.com",
+        "githubLink": "https://github.com/username/my-portfolio",
+        "status": "Completed",
+        "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/025/061/745/small_2x/4k-beautiful-colorful-abstract-wallpaper-photo.jpg",
+        "featured": true
+      },
+      {
+        "id":"11",
+        "title": "E-commerce Platform",
+        "startDate": "2024-04-01",
+        "endDate": "2024-06-30",
+        "description": "An e-commerce platform built to sell products online. It features a shopping cart, user authentication, and an admin panel for managing products.",
+        "technologies": ["React", "Redux", "Node.js", "Express", "MongoDB"],
+        "projectLink": "https://ecommerce-platform.com",
+        "githubLink": "https://github.com/username/e-commerce-platform",
+        "status": "Completed",
+        "imageUrl": "https://t4.ftcdn.net/jpg/09/45/20/97/360_F_945209778_QNLukvfcQL0kkcClajN1FYCHb12pKUfv.jpg",
+        "featured": false
+      },
+      {
+        "id":"12",
+        "title": "Learning Management System",
+        "startDate": "2024-07-01",
+        "endDate": null,
+        "description": "A learning management system that allows educators to upload courses, assignments, and track student progress. It supports multiple user roles including students and teachers.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "JWT Authentication"],
+        "projectLink": "https://learning-system.com",
+        "githubLink": "https://github.com/username/learning-management-system",
+        "status": "In Progress",
+        "imageUrl": "https://free-3dtextureshd.com/wp-content/uploads/2024/04/89.jpg.webp",
+        "featured": true
+      }
+    ]
+  }
+  
+  
