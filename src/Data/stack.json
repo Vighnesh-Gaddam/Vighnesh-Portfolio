@@ -1,0 +1,35 @@
+{
+    "Stack": [
+      {
+        "id": "1",
+        "title": "AuthO",
+        "icon": "/StackIcons/auth0.svg",
+        "description": "Auth0 is a cloud-based identity and access management solution that provides authentication, authorization, and user management services for web and mobile applications."
+      },
+      {
+        "id": "2",
+        "title": "Node.js",
+        "icon": "/StackIcons/node.svg",
+        "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 JavaScript engine and executes JavaScript code outside a web browser."
+      },
+      {
+        "id": "3",
+        "title": "React",
+        "icon": "/StackIcons/React.svg",
+        "description": "React is a JavaScript library for building user interfaces. It allows you to create reusable UI components and efficiently update the DOM in response to data changes."
+      },
+      {
+        "id": "4",
+        "title": "MongoDB",
+        "icon": "/StackIcons/mongo.svg",
+        "description": "MongoDB is a NoSQL document database that stores data in flexible JSON-like documents. It is known for its high availability, scalability, and ease of use."
+      },
+      {
+        "id": "5",
+        "title": "Tailwind CSS",
+        "icon": "/StackIcons/tailwind.svg",
+        "description": "Tailwind CSS is a utility-first CSS framework that provides a set of pre-defined classes that can be used to style HTML elements and components."
+      }
+    ]
+  }
+  

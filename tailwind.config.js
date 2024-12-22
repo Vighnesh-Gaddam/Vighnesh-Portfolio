@@ -4,15 +4,14 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
   	extend: {
-  		fontFamily: {
-  			mono: [
-  				'Azeret Mono',
-  				'monospace'
-  			]
-  		},
+		fontFamily: {
+			mono: ['Azeret Mono', 'monospace'], // Already defined
+			geo: ['Nova Square', 'sans-serif'],// Add this line for Poppins
+		  },
   		backgroundImage: {
-  			'gradient-dots': 'linear-gradient(to bottom right, black, gray, black), url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2210%22 height=%2210%22 viewBox=%220 0 10 10%22><circle cx=%225%22 cy=%225%22 r=%221%22 fill=%22%23D1D5DB%22 /></svg>")'
-  		},
+  			'gradient-dots': 'linear-gradient(to bottom right, black, gray, black), url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2210%22 height=%2210%22 viewBox=%220 0 10 10%22><circle cx=%225%22 cy=%225%22 r=%221%22 fill=%22%23D1D5DB%22 /></svg>")',
+			'contactSVG': 'url("/contact.svg")'
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

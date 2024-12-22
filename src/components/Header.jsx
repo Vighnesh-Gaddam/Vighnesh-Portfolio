@@ -30,7 +30,7 @@ const Header = () => {
   };
 
   return (
-    <header className="relative flex items-center justify-between p-3 bg-[#121212] rounded-[36px] text-white shadow-lg">
+    <header className="relative flex items-center justify-between p-3 bg-[#121212] rounded-[36px] text-white shadow-lg xs:hidden md:flex border border-white">
       {/* Time and Date */}
       <div className="text-base font-mono font-light tracking-wide">
         {getCurrentTimeAndDate()}
@@ -38,7 +38,7 @@ const Header = () => {
 
       {/* Hamburger Menu */}
       <div
-        className="cursor-pointer p-3 rounded-full border border-gray-500 transition-all duration-200 ease-in-out focus:outline-none"
+        className="cursor-pointer p-3 rounded-full border border-gray-500 transition-all duration-200 ease-in-out focus:outline-none xs:flex"
         onClick={toggleMenu}
         aria-label="Toggle navigation menu"
       >

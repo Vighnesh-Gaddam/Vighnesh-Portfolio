@@ -10,7 +10,8 @@ import Journey from "./pages/Journey";
 import MyProject from "./pages/MyProject";
 import Stack from "./pages/Stack";
 import Error from "./pages/Error";
-import certificates from "./pages/Certificates";
+import Certificates from "./pages/Certificate";
+import IndieProject from "./components/IndieProject";
 
 const router = createBrowserRouter([
   {
@@ -53,7 +54,7 @@ const router = createBrowserRouter([
       {
         path: "/certificates",
         element: (
-            <certificates />
+            <Certificates />
         ),
       },
       {
@@ -62,6 +63,12 @@ const router = createBrowserRouter([
             <Error />
         ),
       },
+      {
+        path: "/my-project/:title",
+        element: (
+            <IndieProject/>
+        ),
+      }
     ],
   },
 ]);
