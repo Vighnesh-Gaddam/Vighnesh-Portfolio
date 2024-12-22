@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,3 +8,9 @@
 body {
     @apply font-mono;
 }
+
+@layer utilities {
+    .font-global {
+      @apply leading-tight font-extralight tracking-widest text-[#B3B3B3];
+    }
+  }

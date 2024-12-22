@@ -4,10 +4,10 @@ import Info from "../components/Info";
 
 const Layout = () => {
   return (
-    <div className="h-screen relative text-white mx-auto">
+    <div className="h-screen relative text-white mx-auto font-mono">
       {/* Background Image */}
       <div
-        className="absolute inset-0 z-0 w-full h-full"
+        className="inset-0 z-0 w-full h-full fixed"
         style={{
           backgroundImage: `url('/Enhance-framer.png')`, // Replace with the correct image path
           backgroundAttachment: "fixed",
@@ -24,7 +24,7 @@ const Layout = () => {
         </div>
 
         {/* Right Section - Projects (Scrollable) */}
-        <div className="w-3/4 ml-auto h-full overflow-y-auto z-20">
+        <div className="w-3/4 ml-auto h-full z-20">
           {/* Main Content */}
           <div className="h-full text-white">
             <Outlet />

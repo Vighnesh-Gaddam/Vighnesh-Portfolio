@@ -62,3 +62,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .font-global {
+    @apply leading-tight font-extralight tracking-widest text-[#B3B3B3];
+  }
+}
