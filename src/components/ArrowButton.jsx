@@ -1,10 +1,9 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 const ArrowButton = () => {
   return (
     <motion.div
-      className="absolute bottom-4 right-4 flex justify-center items-center w-10 h-10 rounded-full bg-white shadow-lg cursor-pointer border-4 border-[#80808010]]"
+      className="absolute bottom-4 right-4 flex justify-center items-center w-10 h-10 rounded-full bg-white shadow-lg cursor-pointer border-4 border-[#80808010]] z-10"
       initial="rest"
       animate="rest"
       whileHover="hover"

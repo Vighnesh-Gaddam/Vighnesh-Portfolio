@@ -68,3 +68,20 @@
     @apply leading-tight font-extralight tracking-widest text-[#B3B3B3];
   }
 }
+.downward {
+  animation: scrolldown 10s linear infinite;
+}
+@keyframes scrolldown {
+  to {
+    transform: translateY(100%);
+  }
+}
+
+.upward {
+  animation: scrollup 10s linear infinite;
+}
+@keyframes scrollup {
+  to {
+    transform: translateY(-100%);
+  }
+}

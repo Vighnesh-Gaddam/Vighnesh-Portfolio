@@ -3,6 +3,7 @@ import { FiGithub } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 import Button from "./Button"; // Import the Button component
 import { Link, useLocation } from "react-router-dom";
+import Hamburger from "./Hamburger";
 
 const Info = () => {
   const location = useLocation();
@@ -12,7 +13,7 @@ const Info = () => {
   return (
     <div className="flex flex-col justify-end gap-11 pr-6">
       {/* <Link to="/"> */}
-      <Link className="flex-1 flex gap-2 w-auto h-auto">
+      <Link to={"/"} className="flex-1 flex gap-2 w-auto h-auto">
         <div className="flex items-center justify-center w-auto h-18 relative rounded-full overflow-hidden">
           <img
             src="https://img.freepik.com/premium-photo/portrait-boy-with-dark-hair-vector-illustration-cartoon-style_994418-93881.jpg"
@@ -30,6 +31,9 @@ const Info = () => {
             Full-Stack Developer
           </p>
         </span>
+        <div className="flex justify-end xl:hidden">
+          <Hamburger />
+        </div>
       </Link>
       {/* </Link> */}
       {paragraphPaths.includes(currentPath) ? (
@@ -52,10 +56,10 @@ const Info = () => {
 
       {/* Conditionally render the button */}
       {displayPaths.includes(currentPath) ? (
-        <button className="bg-transparent border border-white rounded-full flex items-center justify-center h-12 w-48 transition-all duration-1000 hover:[background-color:#242424] hover:border-transparent tracking-widest">
+        <Link to="/about-me"  className="bg-transparent border border-white rounded-full flex items-center justify-center h-12 w-48 transition-all duration-1000 hover:[background-color:#242424] hover:border-transparent tracking-widest">
           {" "}
           More about Me{" "}
-        </button>
+        </Link>
       ) : (
         <div className="h-12 w-48 opacity-0"></div>
       )}
